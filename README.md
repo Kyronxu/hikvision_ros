@@ -25,6 +25,7 @@ make
 
 Publish ` sensor_msgs::Image`
 
+***run single hik camera***
 ```sh
 roscore
 source <path/to/devel/setup.sh>
