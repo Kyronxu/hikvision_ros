@@ -31,6 +31,12 @@ source <path/to/devel/setup.sh>
 roslaunch hikvision_ros hik.launch
 ```
 
+***run multi hik camera***
+```sh
+roscore
+source <path/to/devel/setup.sh>
+roslaunch hikvision_ros four_hik.launch
+```
 
 
 ***parameters***
