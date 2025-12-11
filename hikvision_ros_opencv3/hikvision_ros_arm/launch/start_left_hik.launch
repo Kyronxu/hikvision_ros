@@ -1,0 +1,9 @@
+<launch>
+    <!-- Hikvision Camera LEFT Configuration -->
+    <group ns="hik3">
+        <arg name="ip_addr" default="192.168.1.70"/>
+        <arg name="camera_name" default="hik_camera3"/>
+        <arg name="camera_frame_id" default="hik_camera3"/>
+        <include file="$(find hikvision_ros)/launch/hik.launch" pass_all_args="true"/>
+    </group>
+</launch>

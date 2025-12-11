@@ -1,0 +1,9 @@
+<launch>
+    <!-- Hikvision Camera RIGHT Configuration -->
+    <group ns="hik4">
+        <arg name="ip_addr" default="192.168.1.62"/>
+        <arg name="camera_name" default="hik_camera4"/>
+        <arg name="camera_frame_id" default="hik_camera4"/>
+        <include file="$(find hikvision_ros)/launch/hik.launch" pass_all_args="true"/>
+    </group>
+</launch>

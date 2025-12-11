@@ -1,0 +1,9 @@
+<launch>
+    <!-- Hikvision Camera BACK Configuration -->
+    <group ns="hik2">
+        <arg name="ip_addr" default="192.168.1.64"/>
+        <arg name="camera_name" default="hik_camera2"/>
+        <arg name="camera_frame_id" default="hik_camera2"/>
+        <include file="$(find hikvision_ros)/launch/hik.launch" pass_all_args="true"/>
+    </group>
+</launch>
